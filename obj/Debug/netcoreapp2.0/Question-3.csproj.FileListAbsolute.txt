@@ -1,0 +1,11 @@
+C:\Users\Owner\Desktop\Programming-Assessment\Question-3\bin\Debug\netcoreapp2.0\Question-3.deps.json
+C:\Users\Owner\Desktop\Programming-Assessment\Question-3\bin\Debug\netcoreapp2.0\Question-3.runtimeconfig.json
+C:\Users\Owner\Desktop\Programming-Assessment\Question-3\bin\Debug\netcoreapp2.0\Question-3.runtimeconfig.dev.json
+C:\Users\Owner\Desktop\Programming-Assessment\Question-3\bin\Debug\netcoreapp2.0\Question-3.dll
+C:\Users\Owner\Desktop\Programming-Assessment\Question-3\bin\Debug\netcoreapp2.0\Question-3.pdb
+C:\Users\Owner\Desktop\Programming-Assessment\Question-3\obj\Debug\netcoreapp2.0\Question-3.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\Programming-Assessment\Question-3\obj\Debug\netcoreapp2.0\Question-3.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\Programming-Assessment\Question-3\obj\Debug\netcoreapp2.0\Question-3.AssemblyInfoInputs.cache
+C:\Users\Owner\Desktop\Programming-Assessment\Question-3\obj\Debug\netcoreapp2.0\Question-3.AssemblyInfo.cs
+C:\Users\Owner\Desktop\Programming-Assessment\Question-3\obj\Debug\netcoreapp2.0\Question-3.dll
+C:\Users\Owner\Desktop\Programming-Assessment\Question-3\obj\Debug\netcoreapp2.0\Question-3.pdb
