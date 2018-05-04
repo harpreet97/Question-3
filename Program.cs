@@ -2,29 +2,6 @@
 
 namespace Question_3
 {
-    class Person
-    {
-        public string FirstName { get; set; }
-        public String LastName { get; set; }
-        public Int16 YearOfBirth { get; set; }
-
-        public Person(string fn, string ln)
-        {
-
-            FirstName = fn;
-            LastName = ln;
-        }
-        public int GetAge()
-        {
-            var age = DateTime.Now.Year - YearOfBirth;
-            return age;
-        }
-        public string GetFullName()
-        {
-            return string.Format("{0} {1}", FirstName, LastName);
-        }
-
-    }
     class Program
     {
         static void Main(string[] args)
@@ -34,29 +11,29 @@ namespace Question_3
             {
                 Console.WriteLine("Enter name of new person below...");
                 Console.WriteLine("************************************");
-                Console.WriteLine("Please enter your firstname here?");
-                string fn = Convert.ToString(Console.ReadLine());
-                Console.WriteLine("First name: " + fn);
+                Console.Write("First name: ");
+                string firstName = Convert.ToString(Console.ReadLine());
+                
                 Console.WriteLine("");
-                Console.WriteLine("Please enter your lastname here?");
-                string ln = Console.ReadLine();
-                Console.WriteLine("Last name: " + ln);
+                Console.Write("Last name: ");
+                string lastName = Console.ReadLine();
+                
                 Console.WriteLine("");
                 Console.WriteLine("Creating new person record...");
                 Console.WriteLine("");
-                Person obj = new Person(fn, ln);
+                Person obj = new Person(firstName, lastName);
                 
-                Console.WriteLine("Please enter your year of birth here?");
+                Console.Write("Enter year of birth: ");
                 Int16 yob = Convert.ToInt16(Console.ReadLine());
                 obj.YearOfBirth = yob;
 
                 Console.WriteLine(string.Format("Person: {0} is {1} years old.", obj.GetFullName(), obj.GetAge()));
                 Console.WriteLine("");
-                Console.WriteLine("Do you want to add another person? (y/n)");
+                Console.Write("Do you want to add another person? <y/n> :");
                 char createNewPerson = Convert.ToChar(Console.ReadLine());
                 if (createNewPerson == 'n')
                 {
-                    Console.WriteLine("press any key to exit the program");
+                    Console.WriteLine("Press any key to exit the program?");
                     Console.ReadKey();
                     newPerson = false;
                 }
